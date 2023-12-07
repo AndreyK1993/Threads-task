@@ -1,8 +1,9 @@
 package task_03;
 
-class Fruits_03 {
+class Fruits_03 extends Thread{
 
     public Fruits_03(Thread group, String name) {
+
         super(group, name);
     }
 
@@ -18,7 +19,8 @@ class Fruits_03 {
         }
     }
 
-    private /* ??? **/ getFruits() {
+    private static String[] getFruits() {
+
         return new String[] {"orange", "apple", "plum"};
     }
 }

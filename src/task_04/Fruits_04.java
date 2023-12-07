@@ -1,19 +1,20 @@
 package task_04;
 
-class Fruits_04 {
+class Fruits_04 extends Thread {
 
     public void run() {
         for (String fruit : getFruits()) {
             System.out.println(fruit);
         }
         try {
-            Thread./* поток засинає на 2 секунди **/
+            Thread.sleep(2000);/* поток засинає на 2 секунди **/
         } catch (InterruptedException e) {
             System.out.println("Thread got interrupted");
         }
     }
 
-    private /* ??? **/ getFruits() {
+    private static String[] getFruits() {
+
         return new String[] {"orange", "apple", "plum"};
     }
 }

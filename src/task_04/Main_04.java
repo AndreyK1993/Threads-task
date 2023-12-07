@@ -6,16 +6,17 @@ public class Main_04 {
 
         Fruits_04 fruits = new Fruits_04();
         fruits.start();
-        fruits./* переривається цей потік **/
-
+        fruits.interrupt();/* переривається цей потік **/
         showVeges();
     }
 
-    private static /* ??? **/ getVeges() {
+    private static String[] getVeges() {
+
         return new String[]{"tomato", "cucumber", "carrot"};
     }
 
-    private static void showVeges(String[] veges) {
+    private static void showVeges() {
+
         for (String veg : veges) System.out.println(veg);
     }
 }
