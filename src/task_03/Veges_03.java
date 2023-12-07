@@ -2,7 +2,7 @@ package task_03;
 
 class Veges_03 extends Thread {
 
-    public Veges_03(Thread group, String name) {
+    public Veges_03(ThreadGroup group, String name) {
         super(group, name);
     }
 

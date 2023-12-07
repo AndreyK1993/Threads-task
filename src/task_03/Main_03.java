@@ -9,7 +9,7 @@ public class Main_03 {
         getBerries(group);
     }
 
-    private static void getFruits(ThreadGroup group) {
+    private static void getFruits(ThreadGroup group) throws InterruptedException {
         Fruits_03 fruits = new Fruits_03(group, "\nFruits:");
         fruits.start();
         fruits.join();/* чекає, поки цей потік помре, і приєднує інший потік **/

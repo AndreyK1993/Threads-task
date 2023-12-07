@@ -2,7 +2,7 @@ package task_03;
 
 class Berries extends Thread {
 
-    public Berries(Thread group, String name) {
+    public Berries(ThreadGroup group, String name) {
 
         super(group, name);
     }

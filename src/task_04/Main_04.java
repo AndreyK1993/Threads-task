@@ -16,7 +16,7 @@ public class Main_04 {
     }
 
     private static void showVeges() {
-
+        String[] veges = getVeges();
         for (String veg : veges) System.out.println(veg);
     }
 }
