@@ -4,15 +4,15 @@ public class Main_01 {
 
     public static void main(String[] args) {
 
-        Robot robot1 = new Robot("Robot 1.0");
+        Robot robot1 = getRobot("Robot 1.0");
         getRobotInfo(robot1);
 
-        Robot robot2 = new Robot("Robot 2.0");
+        Robot robot2 = getRobot("Robot 2.0");
         getRobotInfo(robot2);
     }
 
     private static Robot getRobot(String name) {
-       return new Robot(name);
+        return new Robot(name);
     }
 
     private static void getRobotInfo(Robot robot) {

@@ -1,8 +1,8 @@
 package task_03;
 
-class Fruits {
+class Fruits_03 {
 
-    public Fruits(Thread group, String name) {
+    public Fruits_03(Thread group, String name) {
         super(group, name);
     }
 

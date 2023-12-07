@@ -4,7 +4,7 @@ public class Main_04 {
 
     public static void main(String[] args) {
 
-        Fruits fruits = new Fruits();
+        Fruits_04 fruits = new Fruits_04();
         fruits.start();
         fruits./* переривається цей потік **/
 

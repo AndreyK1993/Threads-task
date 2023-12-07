@@ -1,8 +1,8 @@
 package task_03;
 
-class Veges {
+class Veges_03 {
 
-    public Veges(Thread group, String name) {
+    public Veges_03(Thread group, String name) {
         super(group, name);
     }
 

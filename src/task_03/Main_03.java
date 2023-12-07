@@ -10,13 +10,13 @@ public class Main_03 {
     }
 
     private static void getFruits(ThreadGroup group) {
-        Fruits fruits = new Fruits(group, "\nFruits:");
+        Fruits_03 fruits = new Fruits_03(group, "\nFruits:");
         fruits.start();
         fruits./* чекає, поки цей потік помре, і приєднує інший потік **/
     }
 
     private static void getVeges(ThreadGroup group) throws InterruptedException {
-        Veges veges = new Veges(group, "\nVeges:");
+        Veges_03 veges = new Veges_03(group, "\nVeges:");
         veges.start();
         veges./* чекає, поки цей потік помре, і приєднує інший потік **/
     }

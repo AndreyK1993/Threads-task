@@ -17,4 +17,3 @@ public class Robot extends Thread{
         System.out.println(Thread.currentThread().getName() + " Stopped");
     }
 }
-//

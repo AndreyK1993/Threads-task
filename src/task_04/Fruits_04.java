@@ -1,6 +1,6 @@
 package task_04;
 
-class Fruits {
+class Fruits_04 {
 
     public void run() {
         for (String fruit : getFruits()) {
