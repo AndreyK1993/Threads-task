@@ -1,6 +1,6 @@
 package task_04;
 
-class Fruits_04 extends Thread {
+class Fruits04 extends Thread {
 
     public void run() {
         for (String fruit : getFruits()) {

@@ -1,6 +1,6 @@
 package task_01;
 
-public class Main_01 {
+public class Main01 {
 
     public static void main(String[] args) {
 
@@ -17,7 +17,7 @@ public class Main_01 {
 
     private static void getRobotInfo(Robot robot) {
         System.out.println(robot.getName() + " state: " + robot.getState());
-        robot.run();
+        robot.start();
         System.out.println(robot.getName() + " state: " + robot.getState());
     }
 }

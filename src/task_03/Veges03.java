@@ -1,16 +1,15 @@
 package task_03;
 
-class Fruits_03 extends Thread{
+class Veges03 extends Thread {
 
-    public Fruits_03(ThreadGroup group, String name) {
-
+    public Veges03(ThreadGroup group, String name) {
         super(group, name);
     }
 
     public void run() {
         System.out.println(Thread.currentThread().getName());
-        for (String fruit : getFruits()) {
-            System.out.println(fruit);
+        for (String veg : getVeges()) {
+            System.out.println(veg);
             try {
                 Thread.sleep(500);
             } catch (InterruptedException ie) {
@@ -19,8 +18,8 @@ class Fruits_03 extends Thread{
         }
     }
 
-    private static String[] getFruits() {
+    private static String[] getVeges() {
 
-        return new String[] {"orange", "apple", "plum"};
+        return new String[]{"tomato", "cucumber", "carrot"};
     }
 }
